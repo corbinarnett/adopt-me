@@ -4,7 +4,7 @@ import { ANIMALS } from "@frontendmasters/pet";
 const SearchParams = () => {
   const [location, setLocation] = useState("Seattle, WA");
   const [animal, setAnimal] = useState("dog");
-  const [breed, setBreed] = useState([]);
+  const [breed, setBreed] = useState("");
 
   return (
     <div className="search-params">
